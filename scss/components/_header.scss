@@ -1,0 +1,31 @@
+header {
+    background-color: map-get($paleta_de_colores , header);
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+        }
+
+        li {
+            a {
+                text-decoration: none;
+                background-color: map-get($paleta_de_colores , botones );
+                padding: 10px;
+                border: solid 2px black;
+
+                &:hover {
+                    background-color: map-get($paleta_de_colores , hover ) ;
+                }
+            }
+        }
+    }
+}

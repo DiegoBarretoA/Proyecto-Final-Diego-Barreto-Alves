@@ -1,0 +1,25 @@
+.sucursales {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 10%;
+    &__ul {
+        list-style-type: none;
+        text-decoration: none;
+    }
+}
+#cafeteria_cocina {
+    display: flex;
+    flex-direction: column;
+}
+.subscripcion {
+    display: flex;
+}
+.historia {
+    display: flex;
+    flex-direction: column;
+    & img{
+        width:100vw;
+        height:50vh;
+    }
+}
