@@ -1,8 +1,13 @@
+/*Variables que contienen la paleta de colores de la página*/
+
+
 $header: #579bb1;
 $botones: #ece8dd;
 $hover:#ebcb6d;
 $body:#E1D7C6;
 $footer:#ffbc65;
+/*Mapa que sirve para establecer colores*/
+
 $paleta_de_colores:(
     header: $header,
     botones: $botones,

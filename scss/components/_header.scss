@@ -1,3 +1,6 @@
+
+/*Estilo de la barra de navegación de Bootstrap*/
+
 header {
     background-color: map-get($paleta_de_colores , header);
 
@@ -16,12 +19,13 @@ header {
         }
 
         li {
+          
             a {
                 text-decoration: none;
                 background-color: map-get($paleta_de_colores , botones );
                 padding: 10px;
                 border: solid 2px black;
-
+                border-radius: 10%;
                 &:hover {
                     background-color: map-get($paleta_de_colores , hover ) ;
                 }

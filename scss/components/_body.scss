@@ -1,3 +1,6 @@
+/*Estilo del Body para que el footer quede siempre abajo del todo*/
+
+
 body {
     background-color: map-get($paleta_de_colores , body );
     min-height: 100vh;

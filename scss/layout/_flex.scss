@@ -18,8 +18,12 @@
 .historia {
     display: flex;
     flex-direction: column;
-    & img{
-        width:100vw;
-        height:50vh;
+    & p{
+        line-height: 250%;
     }
+}
+#primer_local{
+    max-width: 100%;
+    width: 100%;
+    height:auto;
 }
